@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdarg.c>
+#include<stdarg.h>
 void display(int count,...)
 {
     va_list list;
@@ -15,5 +15,6 @@ void display(int count,...)
  {
     display=(4,3,5,7,11);
  }
+
 
 
